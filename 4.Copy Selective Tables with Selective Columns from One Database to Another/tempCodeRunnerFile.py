@@ -1,0 +1,1 @@
+df.to_sql(table_name, con=dest_engine, if_exists='append', index=False)
